@@ -1,0 +1,708 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+image img {
+    z-index: -1;
+
+}
+/* header */
+
+header{
+    position: sticky;
+    top: 0;
+    height: 20vh;
+    width: 100%;
+}
+
+/* company */
+
+nav{
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #117938;
+}
+
+.header .start{
+    align-self: flex-start;
+    height: 30%;
+}
+
+.header .below{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color: #20BB5A;
+}
+
+
+.header .start img{
+    width: 60px;
+    margin: 10px;
+}
+
+.header .start p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.header .start .company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* header end */
+
+/*list */
+
+.header .end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .end ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header .end li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.header .end li a{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.header .end li:hover{
+    background-color: #053E32;
+}
+
+/* anchors */
+
+.header .end a{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    margin: 0px 20px;
+}
+
+.header .end #reportid{
+    font-weight: 600;
+}
+
+/*anchors end */
+
+
+.header .end .report{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #053E32;
+    width: 100px;
+    height: 40px;
+}
+
+
+/* header ends */
+
+/* main part starts */
+
+/* first section */
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("home page image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 962px;
+}
+
+.image .content{
+    background-color: #92DB9C;
+    height: 640px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+   
+}
+
+.image .content h1{
+    font-family: "Kavoon", serif;
+    color: #242C4B;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.image .content p{
+    font-family: "Katibeh", serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.9rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.gap{
+    background-color: rgba(121, 217, 124,0.1);
+    height:100px;
+}
+
+main{
+    height: 100%;
+}
+
+
+/* 2nd section */
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(121, 217, 124,0.1);
+}
+
+#main #main-down{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-down .one{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#main-down p {
+   font-size: 1rem;
+}
+#main-down a {
+   font-size: 1.5rem;
+}
+
+#main-down .two{
+    width: 45%;
+    height: 100%;
+}
+#main-down {
+    height: 200px;
+}
+
+/* left side box ke andar ka content */
+
+#main-down .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#main-down .one .news p{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+#main-down .one .news{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-down .one .links{
+    height: 80%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.one .links p{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.one .links a{
+    text-align: center;
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.one .links a:hover{
+    text-decoration: underline;
+}
+
+/* right side box ki css */
+
+.two{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.two .up{
+    height: 10%;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.two .down{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.two .down .dusri-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #92DB9C;
+    width: 100%;
+    height: 40%;
+}
+
+.two .down .dusri-links a{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 4%;
+}
+
+.two .down .dusri-links a:hover{
+    text-decoration: underline;
+}
+
+.other-info{
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-info .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    background-color: #92DB9C;
+}
+
+.other-info .left p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.other-info .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    background-color: #92DB9C;
+}
+
+.other-info .right p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 800;
+}   
+
+
+
+
+/* 3rd section */
+
+/* first box */
+
+.first{
+    background-color: rgba(162, 221, 170,0.71);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 60%;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.first p{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Inknut Antiqua", serif;
+    padding: 10%;
+    width: 50%;
+}
+
+/* second box */
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: #117938;
+}
+
+.second h2{
+    width: 45%;
+    align-self: flex-end;
+    font-size: 3rem;
+    margin-bottom: 0.5%;
+    color: white;
+    font-weight: 400;
+}
+
+.second h2 p{
+    display: inline;
+    font-family: "Mr Bedfort", serif;
+}
+
+.second .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 45%;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.second .goals{
+    width: 100%;
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+    position: relative;
+    top: 10%;
+}
+
+.second .goals .who{
+    margin-left: 5%;
+}
+
+.second .goals .our{
+    margin-right: 5%;
+}
+
+
+.second .goals p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+/* javascript css */
+
+
+
+
+.second .box .buttons{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#first{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#second{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#third{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+
+.second .buttons button{
+    width: 33.3333%;
+}
+
+
+
+
+
+
+/* real information part starts */
+
+.second .box .information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+}
+
+.second .box .information p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* 4th section */
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A2DDAA;
+    height: 450px;
+    width: 60%;
+    margin-left: 270px;
+}
+
+.third p{
+    color: black;
+    font-family: "Inder", sans-serif;
+    padding: 10%;
+    font-size: 1.5rem;
+}
+
+.price-rise{
+    background-image: url("Impact\ of\ Price\ Rise\ 2.png");
+    background-size: cover;
+    width: 1525px;
+    height: 760px;
+}
+
+/* footer section */
+
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #274135;
+}
+
+
+/* left side */
+
+.left{
+    width: 20%;
+}
+
+.footer .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 20%;
+    margin-left: 4%;
+}
+
+.footer .left div{
+    margin-top: 10%;
+}
+
+.footer .left p{
+    color: white;
+    font-weight: 800;
+}
+
+.footer .left ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer .left li{
+    list-style: none;
+    margin: 10%;
+}
+
+.footer .left li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* middle part */
+
+.middle .contactinfo p{
+    font-weight: 800;
+}
+
+.middle p{
+    color: white;
+    font-weight: bolder;
+}
+
+.footer .middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    align-self: flex-start;
+    margin-top: 1.5%;
+}
+
+.footer .middle .mail{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.footer .middle img{
+    width: 30px;
+    margin: 3%;
+}
+
+.footer .middle .mail a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer .middle .contact a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+/* right side */
+
+.footer .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.footer .right div{
+    margin: 10px;
+}
+
+.footer .right p{
+    color: white;
+}
+
+.footer .right .company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .right .company p{
+    color: #DEA102;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer .right .feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer .right .feedback p{
+    color: white;
+    font-size: 1.5rem;
+    margin: 2% 0px;
+    font-weight: 700;
+}
+
+.footer .right .feedback textarea{
+    margin: 3% 0px;
+}
+
+.footer .right .feedback button{
+    align-self: flex-end;
+    width: 70px;
+    height: 30px;
+}
+
+.footer .right #logo{
+    width: 80px;
+}
+
+.footer .right .follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .right .follow p{
+    margin: 0px 7%;
+}
+
+.footer .right .follow a{
+    margin: 0px 4%;
+}
+
+
+/* footer hover animations */
+
+.footer .left a:hover{
+    color: blue;
+}
+
+.footer .middle a p:hover{
+    color: blue;
+}
+
+footer .right img:hover{
+    width: 40px;
+}
