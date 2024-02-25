@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link rel="stylesheet" href="report.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&family=Rammetto+One&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<!-- <header>
+    <nav>
+        <div class="header">
+            <div class="start">
+                <div class="company">
+                    <img src="site logo white.png" alt="" class="Logo">
+                    <p class="name"><b>Commodity Tracker</b></p>
+                </div>
+            </div>
+            <div class="below">
+                <div class="end">
+                    <ul>
+                        <li><a href="alogin">Admin Login</a></li>
+                        <li><a href="#">About&nbsp;Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="/signup">Trader&nbsp;Signup</a></li>
+                    </ul>
+                    <a href="/report" id="reportid">
+                        <div class="report">Report</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header> -->
+<body>
+    <div class="outerbox">
+        <div class="box">
+            <div class="content">
+                <div class="heading">
+                    <h1>REPORT</h1>
+                </div>
+                <div class="question">
+                    <p>Are you witnessing a crime?</p>
+                </div>
+                <div class="answer">
+                    <p>Your efforts as good citizen is valuable to us!<br>Let us help in reducing crimes together</p>
+                </div>
+                <div class="details">
+                    <p>Provide the details you have of the accused</p>
+                </div>
+                <div class="name">
+                    <p>NAME</p>
+                    <input type="text">
+                </div>
+                <div class="area">
+                    <p>AREA</p>
+                    <input type="text">
+                </div>
+                <div class="accused">
+                    <p>ANY SPECIFIC DETAILS OF ACCUSED</p>
+                    <textarea name="accused" id="accused" cols="30" rows="10"></textarea>
+                </div>
+                <div class="explain">
+                    <p>EXPLAIN IN DETAIL ABOUT THE WITNESSED SCENES</p>
+                    <textarea name="explain" id="explain" cols="30" rows="10"></textarea>
+                </div>
+                <div class="image" id="image">
+                    <p>WOULD YOU LIKE TO ADD ANY IMAGE TO SUPPORT YOUR REPORT?</p>
+                    <p class="if-any">(if any)</p>
+                    <input type="file" id="imageInput" accept="image/*">
+                    <button onclick="uploadImage()">Upload Image</button>
+                    <img src="" id="previewImage" style="display: none; max-width: 300px;">
+                </div>
+                <div class="location">
+                    <p>SHARE LOCATION OF SITE</p>
+                    <p class="if-any">(if any)</p>
+                    <button id="getlocation">share the location</button>
+                </div>
+                <div class="yourself">
+                    <p class="you">PROVIDE DETAILS ABOUT YOURSELF</p>
+                    <p class="your-details">Your details will be kept confidential*</p>
+                </div>
+                <div class="name1">
+                    <p>NAME</p>
+                    <input type="text">
+                </div>
+                <div class="contact">
+                    <p>PH. NUMBER</p>
+                    <input type="text">
+                </div>
+                <div class="email">
+                    <p>EMAIL</p>
+                    <input type="text">
+                </div>
+                <div class="submit">
+                    <form action="/home" method="get"><button >Submit</button></form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const button = document.getElementById('getlocation');
+
+        function gotlocation(position){
+            console.log(position);
+        }
+
+        function failedToget(){
+            console.log('there was some issue')
+        }
+
+        button.addEventListener('click' , async ()=>{
+            navigator.geolocation.getCurrentPosition(gotlocation ,failedToget)
+        });
+
+        function uploadImage() {
+            const input = document.getElementById('imageInput');
+            const preview = document.getElementById('previewImage');
+
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+</body>
+
+</html>

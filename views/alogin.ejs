@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/alogin.css">
+</head>
+<body>
+    <div class="box">
+        <div class="pic">
+            <img src="family.png">
+            <h3>Welcome!</h3>
+        </div>
+        <div class="info">
+            <h3>LOG IN</h3>
+            <form action="/admin" method="get"> <!-- Specify method as "post" and action as "/alogin" -->
+                <h5>PHONE NUMBER</h5>
+                <input type="number" name="phone" placeholder="Phone number">
+                <h5>PASSWORD</h5>
+                <input type="password" name="password" placeholder="Password">
+                <h5>Employee ID</h5>
+                <input type="text" name="tln" placeholder="Employee ID">
+                <br />
+               <input type="submit" id="submit" value="Login"> <!-- Changed action to value and removed action="/" -->
+            </form>
+        </div>
+    </div>
+</body>
+</html>
