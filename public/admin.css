@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+.red{
+    width: 25vw;
+    height: 100vh;
+    background-color: rgba(198,24,0,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+}
+
+
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 14%;
+    height:10%;
+}
+
+.company p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+.company img{
+    width: 80px;
+    margin: 0px 20px 0px 0px;
+}
+
+
+
+
+.user{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8%;
+    height: 25%;
+}
+
+
+.user img{
+    width: 200px;
+    margin: 2px 0px;
+}
+
+.user .name{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+
+.user .gmail{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* buttons */
+
+.buttons{
+    height: 65%;
+    margin-bottom: 5%;
+}
+
+.buttons li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+
+}
+
+.buttons li:hover{
+    background-color: rgb(198,24,0);
+}
+
+.buttons li div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.buttons .home img{
+    width: 47px;
+    margin: 0px 8px 0px 0px;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.buttons .data img{
+    width: 37px;
+    margin: 0px 14px 0px 0px;
+}
+
+.buttons .report img{
+    width: 40px;
+    margin: 0px 12px 0px 0px;
+}
+
+.buttons .signout img{
+    width: 47px;
+    margin: 0px 8px 0px 0px;
+}
+
+
+/* right hand side css */
+
+/* info */
+
+main{
+    display: flex;
+    width:100vw;
+    height:1500px;
+    justify-content: flex-end;
+}
+
+main .info{
+    width: 74.6%;
+    height: 1500px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .welcome{
+    align-self: flex-start;
+    margin: 2% 0px 5% 4%;
+}
+
+.info .welcome p{
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+/* filter options */
+
+.info .filter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 98%;
+    margin: 2% 0px 3% 0px;
+}
+
+/* search options */
+
+.info .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.info .search img{
+    width: 30px;
+}
+
+.info .search input{
+    border-radius: 20px;
+    height: 28px;
+    width: 90%;
+}
+
+/* nodal options */
+
+.info 
+#nodal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.info 
+#nodal {
+    border-radius: 20px;
+    height: 28px;
+    width: 90%;
+    padding-left: 7px;
+}
+
+/* area options */
+
+.info #area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.info #area {
+    border-radius: 20px;
+    height: 28px;
+    width: 90%;
+    padding-left: 7px;
+}
+
+/* flag options */
+
+.info .flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.info .flag select{
+    border-radius: 20px;
+    height: 28px;
+    width: 90%;
+}
+
+.info .flag img{
+    width: 30px;
+}
+
+
+/* table header */
+
+.table-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E6E6E6;
+    width: 1000px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom:10px;
+   
+}
+
+.table-header p{
+    text-align: center;
+    color: #8B8B8B;
+    font-weight: 700;
+}
+
+.table-header .name{
+    width: 20%;
+}
+
+.table-header .license{
+    width: 20%;
+}
+
+.table-header .contact{
+    width: 20%;
+}
+
+.table-header .flag{
+    width: 10%;
+}
+
+.table-header .area{
+    width: 20%;
+}
+
+
+/* table data */
+
+/* row 1 */
+
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    margin: 0px 0px 2% 0px;
+    
+}
+
+.row p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.row a{
+    text-align: center;
+    text-decoration: none;
+    color: #0000FF;
+    font-weight: 500;
+    display: block;
+}
+
+.row a:hover{
+    text-decoration: underline;
+}
+
+.row .name{
+    width: 20%;
+}
+
+.row .license{
+    width: 20%;
+}
+
+.row .contact{
+    width: 20%;
+}
+
+.row .flag{
+    width: 10%;
+}
+
+.row .area{
+    width: 20%;
+}

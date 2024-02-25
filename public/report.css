@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rasa", serif;
+}
+
+/* css starts */
+
+.outerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #274135;
+    height: 400vh;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCE6CF;
+    height: 80%;
+    width: 80%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;       /* maybe have to make a change to flex property here */
+    align-items: center;
+    height: 90%;
+    width: 90%;
+}
+
+
+/* extras */
+
+.heading{
+    font-family: "Piazzolla", serif;
+    font-size: 2rem;
+}
+
+.question p{
+    font-family: "Piazzolla", serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.answer p{
+    font-family: "Piazzolla", serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.details{
+    align-self: flex-start;
+}
+
+.details p{
+    font-family: "Piazzolla", serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* real information starts from here */
+
+/* name */
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.name p{
+    width: 8%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.name input{
+    width: 90%;
+    background-color: #C4C3C3;
+    border: none;
+}
+
+
+/* area */
+
+.area{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.area p{
+    width: 8%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.area input{
+    width: 90%;
+    background-color: #C4C3C3;
+    border: none;
+}
+
+/* any specific details of the accused */
+
+.accused{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.accused p{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.accused #accused{
+    width: 90%;
+    background-color: #C4C3C3;
+    border: none;
+    align-self: flex-end;
+}
+
+/* explain in detail about the witnessed scenes */
+
+.explain{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.explain p{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.explain #explain{
+    width: 90%;
+    background-color: #C4C3C3;
+    border: none;
+    align-self: flex-end;
+}
+
+
+/*  upload image */
+
+.image .if-any{
+    align-self: flex-end;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.image p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.image div{
+    width: 90%;
+    height: 10rem;
+    background-color: #C4C3C3;
+    align-self: flex-end;
+}
+
+/* share location */
+
+.location .if-any{
+    align-self: flex-end;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.location{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.location p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.location textarea{
+    width: 90%;
+    background-color: #C4C3C3;
+    border: none;
+    align-self: flex-end;
+}
+
+
+/* Provide details about yourself */
+
+.yourself{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.yourself .you{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.yourself .your-details{
+    align-self: flex-end;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* name */
+
+
+.name1{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.name1 p{
+    width: 20%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.name1 input{
+    width: 80%;
+    background-color: #C4C3C3;
+    border: none;
+}
+
+/* contact */
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.contact p{
+    width: 20%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contact input{
+    width: 80%;
+    background-color: #C4C3C3;
+    border: none;
+}
+
+
+/* email */
+
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.email p{
+    width: 20%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.email input{
+    width: 80%;
+    background-color: #C4C3C3;
+    border: none;
+}
+
+
+/* button */
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+}
+
+.submit button{
+    align-self: center;
+    width: 20%;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: "Rammetto One", sans-serif;
+    background-color: #1F2F25;
+    color: white;
+    margin-left: 430px;
+}
+
+.submit button:hover{
+    cursor: pointer;
+}
+#getlocation {
+    width: 150px;
+    height: 60px;
+    margin-left: 450px;
+    background-color: #274135;
+    color: white;
+    font-weight: 20px;
+}
+.location {
+    text-align: center;
+}
+.image {
+    margin-top: 20px;
+}
+#previewImage {
+    margin-top: 10px;
+}

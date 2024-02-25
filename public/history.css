@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+
+
+
+/* left hand side css */
+
+.red {
+    width: 25vw;
+    height: 100vh;
+    background-color: rgba(0, 198, 94, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+}
+
+/* company */
+
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 10%;
+}
+
+.company p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+.company img {
+    width: 50px;
+    margin: 0px 20px 0px 0px;
+}
+
+
+/* user */
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+    height: 25%;
+}
+
+
+.user img {
+    width: 180px;
+    margin: 2px 0px;
+}
+
+.user .name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+
+.user .gmail {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/* license */
+
+.red .license {
+    width: 80%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.red .license .licenseno{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Moulpali", sans-serif;
+    margin-bottom: 2%;
+    margin-right: 20%;
+}
+
+.red .license .licenseno2{
+    color: white;
+    font-weight: 700;
+}
+
+/* commodity */
+
+.red .commodity {
+    width: 80%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.red .commodity p{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Moulpali", sans-serif;
+    margin-bottom: 1%;
+    margin-right: 6%;
+}
+
+.red .commodity ul li{
+    color: white;
+    font-weight: 700;
+    margin: 4%;
+}
+
+
+
+/* buttons */
+
+.buttons {
+    height: 40%;
+    margin-bottom: 5%;
+}
+
+.buttons li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.buttons li:hover {
+    background-color: rgb(0, 198, 94);
+}
+
+.buttons li div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.buttons .home img {
+    width: 32px;
+    margin: 0px 8px 0px 0px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.buttons .data img {
+    width: 27px;
+    margin: 0px 14px 0px 0px;
+}
+
+.buttons .report img {
+    width: 26px;
+    margin: 0px 12px 0px 0px;
+}
+
+.buttons .signout img {
+    width: 32px;
+    margin: 0px 8px 0px 0px;
+}
+
+
+/* right hand side section */
+
+/* information */
+
+main{
+    display: flex;
+    width:100vw;
+    justify-content: flex-end;
+}
+
+main .info{
+    width: 74.6%;
+    height: 1000px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+main .info .box{
+    width: 95%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50% 50%;
+    row-gap: 2%;
+    column-gap: 3%;
+}
+
+
+/* profile */
+
+
+main .box .profile{
+    grid-row: 1/3;
+    background-color: white;
+    border-radius: 20px;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* profile flex items */
+
+
+
+main .box .profile .edit{
+    background-color: rgba(0, 198, 94,0.8);
+    align-self: flex-end;
+    border-radius: 20px;
+    padding: 2%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+main .box .profile .edit a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+main .box .profile .user img{
+    width: 200px;
+    align-self: center;
+}
+
+main .box .profile .myprofile{
+    width: 90%;
+    align-self: center;
+    margin-bottom: 10%;
+}
+
+main .box .profile .myprofile p{
+    font-family: "Moulpali", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+main .box .profile .myprofile div{
+    background-color: black;
+    height: 3px;
+    width: 40%;
+}
+
+/* details of user start from here */
+
+main .box .gst{
+    width: 90%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+main .box .gst h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+main .box .gst p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+
+
+main .box .business{
+    width: 90%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+main .box .business h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+main .box .business p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+
+main .box .tradename{
+    width: 90%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+main .box .tradename h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+main .box .tradename p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+
+main .box .jurisdiction{
+    width: 90%;
+    align-self: center;
+}
+
+main .box .jurisdiction h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+main .box .jurisdiction p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+
+/* license */
+
+main .box .license{
+    background-color: white;
+    border-radius: 20px;
+    height: 95%;
+}
+
+main .box .contact{
+    background-color: white;
+    border-radius: 20px;
+    height: 95%;
+}
+
+
+/* license css starts here */
+
+main .license{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .license .trader{
+    width: 100%;
+    align-self: center;
+}
+
+main .license .trader p{
+    font-family: "Moulpali", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 7%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+main .license .trader div{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
+
+main .license .licenseno{
+    width: 85%;
+    align-self: center;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+main .license .licenseno h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 3% 0px;
+}
+
+main .license .licenseno p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+main .license .date{
+    width: 85%;
+    align-self: center;
+}
+
+main .license .date h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 3% 0px;
+}
+
+main .license .date p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+/* contacts and address css starts here */
+
+main .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .contact .address{
+    width: 100%;
+    align-self: center;
+}
+
+main .contact .address p{
+    font-family: "Moulpali", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 7%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+main .contact .address div{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
+
+main .contact .addressno{
+    width: 85%;
+    align-self: center;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+main .contact .addressno h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 3% 0px;
+}
+
+main .contact .addressno p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+main .contact .contactno{
+    width: 85%;
+    align-self: center;
+}
+
+main .contact .contactno h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 3% 0px;
+}
+
+main .contact .contactno p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
