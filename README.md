@@ -42,13 +42,11 @@ git push origin main
 
 For any queries, feedback, or collaboration opportunities, feel free to reach out to us via email at [contact@commoditytrackers.com](mailto:sagarjha2004@gmail.com). We value your input and look forward to hearing from you!
 Some Snapshots
-![8](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/5f5a074e-2175-4cf7-862c-3be74d39e06e)
-![7](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/51e7f196-5285-4784-9f56-91b30adb9f5f)
-![6](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/2aac7dbf-c948-448a-8ead-1faf495dba83)
-![5](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/b84f3625-0d9b-4086-9ca2-82ffecdf80ae)
-![4](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/19347744-966d-4907-8b28-9f70600e351e)
-![3](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/342830bb-aa66-4df3-afaf-b09c47193b57)
-![2](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/9d4ed63d-5976-4956-acba-14c9c381116d)
-
-
 ![1](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/d7c174ff-5b50-4aff-99d4-cf01b6239e85)
+![2](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/9d4ed63d-5976-4956-acba-14c9c381116d)
+![3](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/342830bb-aa66-4df3-afaf-b09c47193b57)
+![4](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/19347744-966d-4907-8b28-9f70600e351e)
+![5](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/b84f3625-0d9b-4086-9ca2-82ffecdf80ae)
+![6](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/2aac7dbf-c948-448a-8ead-1faf495dba83)
+![7](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/51e7f196-5285-4784-9f56-91b30adb9f5f)
+![8](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/5f5a074e-2175-4cf7-862c-3be74d39e06e)
