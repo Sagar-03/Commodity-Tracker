@@ -41,6 +41,8 @@ git push origin main
 ## Queries
 
 For any queries, feedback, or collaboration opportunities, feel free to reach out to us via email at [contact@commoditytrackers.com](mailto:sagarjha2004@gmail.com). We value your input and look forward to hearing from you!
+
+
 Some Snapshots
 ![1](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/d7c174ff-5b50-4aff-99d4-cf01b6239e85)
 ![2](https://github.com/Sagar-03/Commodity-Tracker/assets/146898741/9d4ed63d-5976-4956-acba-14c9c381116d)
