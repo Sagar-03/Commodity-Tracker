@@ -1,6 +1,6 @@
 # Commodity Trackers
 
-Commodity Trackers is a project aimed at providing essential features to streamline the tracking and reporting of commodity data. Whether you're a consumer, retailer, or a government official, our platform empowers you with tools to stay informed and contribute to market transparency.
+Commodity Trackers is a project aimed at providing essential features to streamline the tracking and reporting of commodity data. Whether you're a consumer, retailer, or a government official, our platform empowers you with tools to stay informed and contribute to market transparency
 
 ## Features
 
