@@ -37,7 +37,6 @@ git commit -m "Add feature: Bilingual chatbot"
 ```bash
 git push origin main
 ```
-
 ## Queries
 
 For any queries, feedback, or collaboration opportunities, feel free to reach out to us via email at [contact@commoditytrackers.com](mailto:sagarjha2004@gmail.com). We value your input and look forward to hearing from you!
